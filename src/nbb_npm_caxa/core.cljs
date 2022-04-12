@@ -1,5 +1,5 @@
 (ns nbb-npm-caxa.core
-  (:require [clojure.string :refer [split trim upper-case]]
+  (:require [clojure.string :refer [trim upper-case]]
             [goog.string :as gstring]
             [goog.string.format]
             ["readline-sync" :as rls]
@@ -26,8 +26,6 @@
     (println (format "There are %4d instances of id=\"" (count ids)))
     (doseq [id (take 5 ids)]
       (println (-> id
-                   (split #"\"")
-                   second
                    trim
                    upper-case)))))
 
