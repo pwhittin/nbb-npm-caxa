@@ -20,8 +20,7 @@
     (.toString s "base64")))
 
 (defn -main [& args]
-;; try entering "https://book.babashka.org"
-  (let [url (get-input "Enter url: ")
+  (let [url (get-input "Enter url: ") ; try entering "https://book.babashka.org"
         url-text (.text (sf url))
         ids (re-seq #"id=\"[^\"]*\"" url-text)]
     (println (format "There are %4d instances of id=\"" (count ids)))
