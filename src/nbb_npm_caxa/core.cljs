@@ -25,7 +25,6 @@
         ids (re-seq #"id=\"[^\"]*\"" url-text)]
     (println (format "There are %4d instances of id=\"" (count ids)))
     (doseq [id (take 5 ids)]
-      (println (-> id
-                   upper-case)))))
+      (println id))))
 
 ;; (-main)
