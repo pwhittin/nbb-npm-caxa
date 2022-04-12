@@ -19,7 +19,6 @@
   "homepage": "https://github.com/pwhittin/nbb-npm-caxa",
   "dependencies": {
     "nbb": "^0.3.6",
-    "readline-sync": "^1.4.10",
-    "sync-fetch": "^0.3.1"
+    "readline-sync": "^1.4.10"
   }
 }
