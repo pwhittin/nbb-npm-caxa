@@ -1,0 +1,25 @@
+{
+  "name": "nbb-npm-caxa",
+  "version": "1.0.0",
+  "description": "A Clojurescript nbb (sci) app that has two npm dependencies, and is packaged with caxa into a native executable.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwhittin/nbb-npm-caxa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Eclipse Public License - v 2.0",
+  "bugs": {
+    "url": "https://github.com/pwhittin/nbb-npm-caxa/issues"
+  },
+  "homepage": "https://github.com/pwhittin/nbb-npm-caxa",
+  "dependencies": {
+    "nbb": "^0.3.6",
+    "readline-sync": "^1.4.10",
+    "sync-fetch": "^0.3.1"
+  }
+}
