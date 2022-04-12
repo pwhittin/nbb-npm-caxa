@@ -26,7 +26,6 @@
     (println (format "There are %4d instances of id=\"" (count ids)))
     (doseq [id (take 5 ids)]
       (println (-> id
-                   trim
                    upper-case)))))
 
 ;; (-main)
