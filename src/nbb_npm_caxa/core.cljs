@@ -1,6 +1,5 @@
 (ns nbb-npm-caxa.core
-  (:require [clojure.string :refer [trim upper-case]]
-            [goog.string :as gstring]
+  (:require [goog.string :as gstring]
             [goog.string.format]
             ["readline-sync" :as rls]
             ["sync-fetch$default" :as sf]))
